@@ -6,7 +6,7 @@ import (
 	"testing"
 )
 
-func TestGETPlayers(t *testing.T) {
+func TestHomeRoute(t *testing.T) {
 	t.Run("returns message", func(t *testing.T) {
 		request, _ := http.NewRequest(http.MethodGet, "/", nil)
 		response := httptest.NewRecorder()
