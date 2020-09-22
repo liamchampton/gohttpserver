@@ -14,7 +14,7 @@ func TestHomeRoute(t *testing.T) {
 		Home(response, request)
 
 		got := response.Body.String()
-		want := "Hello, welcome to your app, Liam"
+		want := "This is a toolchain test PR"
 
 		if got != want {
 			t.Errorf("got %q, want %q", got, want)
