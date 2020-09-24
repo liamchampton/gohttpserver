@@ -16,7 +16,7 @@ func main() {
 
 func Home(w http.ResponseWriter, r *http.Request) {
 	// Assign the 'msg' variable with a string value
-	msg := "This is a test for liamstoolchain"
+	msg := "This is a test for liams-toolchain"
 
 	// Write the response to the byte array - Sprintf formats and returns a string without printing it anywhere
 	w.Write([]byte(fmt.Sprintf(msg)))
